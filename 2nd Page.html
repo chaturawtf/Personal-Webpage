@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Barlow', sans-serif;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: black;
+            padding: 10px 0;
+            text-align: right;
+        }
+        .header a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 0;
+            transition: background-color 0.3s;
+            font-size: 16px;
+        }
+
+        @keyframes slideDown {
+            from {
+                top: -50px;
+                opacity: 0;
+            }
+            to {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        /* Styles for Projects */
+        .projects {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px; /* Add margin for spacing */
+        }
+
+        .project {
+            flex: 0 0 18%;
+            box-sizing: border-box;
+            padding: 0px;
+            text-align: center;
+            margin: 10px; /* Add margin for spacing */
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project-figure {
+            margin: 0;
+        }
+
+        /* Styles for project links */
+        .project a {
+            text-decoration: none; /* Remove underline */
+            color: grey; /* Set link text color to grey */
+        }
+
+        .project a:hover {
+            color: grey; /* Set hover color to grey (same color as default) */
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: space-between; /* Space between copyright and social icons */
+            align-items: center;
+            padding: 20px 20px; /* Add padding for spacing */
+        }
+
+        .copyright {
+            margin: 0; /* Remove default margin */
+        }
+
+        .footer a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Remove underlines from links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            display: flex;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Style for SVG icons (customize size as needed) */
+        .social-icons img {
+            width: 24px; /* Adjust the width to your desired size */
+            height: 24px; /* Adjust the height to your desired size */
+            fill: white; /* Icon color */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="about-us.html">About Me</a>
+        <a href="stories.html">Stories</a>
+        <a href="events.html">Events</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="support.html">Support</a>
+    </div>
+
+    <div class="projects">
+        <!-- First Set of Project Links and Images -->
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <!-- Add your project links and images here -->
+    </div>
+
+    <div class="projects">
+        <!-- Second Set of Project Links and Images -->
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <a class="project" href="https://youtu.be/QsocIwWFwX4?si=22mCwJzZVxfEB-Sl" target="_blank">
+            <figure class="project-figure">
+                <img class="project-image" src="https://cdn.midjourney.com/e294a7b6-75cc-49e2-92d1-9996335abb9e/0_3.png" alt="" style="border-radius: 10px;"> <!-- Added border-radius -->
+                <figcaption class="project-title">GTFS Data and Infomap</figcaption>
+            </figure>
+        </a>
+        <!-- Add your project links and images here -->
+    </div>
+    
+    <!-- Style for SVG icons (customize size as needed) -->
+    <style>
+        .social-icons img {
+            width: 24px; /* Adjust the width to your desired size */
+            height: 24px; /* Adjust the height to your desired size */
+            fill: white; /* Icon color */
+        }
+    </style>
+    
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>Chatura can make mistakes. Consider checking important information.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="https://www.svgrepo.com/show/473664/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="https://www.svgrepo.com/show/473701/linkedin.svg" alt="Linkedin">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="https://www.svgrepo.com/show/473620/github.svg" alt="Github">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
